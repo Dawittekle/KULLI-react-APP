@@ -16,36 +16,15 @@
 ## 📌 Getting Started
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.x
 - Node.js & npm
 - SQLite or PostgreSQL
 - Git
 
-### 🔧 Installation
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/kulli.git
-   cd kulli
-   ```
-2. **Set Up Backend**
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python manage.py migrate
-   python manage.py runserver
-   ```
-3. **Set Up Frontend**
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-
 ## 🛠 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (React.js)
-- **Backend:** Python (Flask/Django)
+- **Frontend:** React.js
+- **Backend:** Express.js
 - **Database:** SQLite/PostgreSQL
-- **Hosting:** AWS/GCP
+- **Hosting:** AWS/GCP (in progerss)
 
 ## 🚀 How to Use
 ### **Step 1: Sign Up & Log In**
@@ -62,9 +41,6 @@ Ensure you have the following installed:
 - Use the live map to track real-time truck movement.
 
 ## 🤝 Contributing
-
-This project is still in progress. If you would like to contribute, please contact me via email at **teklebrhandawit309@gmail.com**.
-
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
