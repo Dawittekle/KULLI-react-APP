@@ -5,15 +5,15 @@ import { Helmet } from 'react-helmet'
 import Features25 from '../components/features25'
 import Features1 from '../components/features1'
 import Card1 from '../components/card1'
-import Footer3 from '../components/footer3'
+import Footer3 from '../components/main-components/footer'
 import './about-customer.css'
 
 const AboutCustomer = (props) => {
   return (
     <div className="about-customer-container">
       <Helmet>
-        <title>About-customer - Up Start Finance</title>
-        <meta property="og:title" content="About-customer - Up Start Finance" />
+        <title>About - Kulli App</title>
+        <meta property="og:title" content="About - Kulli App" />
       </Helmet>
       <div className="about-customer-navbar navbar-container">
         <div className="max-width">
