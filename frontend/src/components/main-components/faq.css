@@ -1,0 +1,131 @@
+.home-max-width6 {
+  height: 677px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-faq {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-eightunits);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-questions {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.home-text45 {
+  color: var(--dl-color-scheme-green80);
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.home-text46 {
+  font-size: 42px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.home-text47 {
+  font-family: "Urbanist";
+}
+
+.home-text49 {
+  color: var(--dl-color-scheme-orange100);
+  font-family: "Urbanist";
+}
+
+.home-trigger1,
+.home-trigger2,
+.home-trigger3,
+.home-trigger4,
+.home-trigger5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.home-text50,
+.home-text52,
+.home-text54,
+.home-text56,
+.home-text58 {
+  line-height: 1.5;
+}
+
+.home-icon20,
+.home-icon22,
+.home-icon24,
+.home-icon26,
+.home-icon28 {
+  width: 12px;
+  height: 12px;
+}
+
+.home-text51,
+.home-text53,
+.home-text55,
+.home-text57,
+.home-text59 {
+  margin-top: 8px;
+}
+
+.home-image6 {
+  width: 570px;
+  height: 326px;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.home-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media(max-width: 991px) {
+  .home-max-width6 {
+    flex-direction: column;
+  }
+  
+  .home-questions {
+    width: 60%;
+  }
+  
+  .home-image6 {
+    margin-right: -100px;
+  }
+}
+
+@media(max-width: 767px) {
+  .home-faq {
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  
+  .home-questions {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  
+  .home-image6 {
+    width: 100%;
+    margin-right: 0px;
+  }
+}

@@ -6,6 +6,7 @@ import Card from '../components/card'
 import Card1 from '../components/card1'
 import Footer from '../components/main-components/footer'
 import Header from '../components/main-components/header'
+import FAQ from '../components/main-components/faq'
 import './home.css'
 
 const Home = (props) => {
@@ -174,114 +175,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-section4 section-container">
-        <div className="home-max-width6 max-width">
-          <div className="home-faq">
-            <div className="home-questions">
-              <span className="home-text45 beforeHeading">faq</span>
-              <h1 className="home-text46">
-                <span className="home-text47">
-                  Frequently Asked
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span className="home-text49">Questions</span>
-              </h1>
-              <div data-role="Accordion" className="question">
-                <div data-type="accordion-header" className="home-trigger1">
-                  <span className="home-text50">How do I book a truck?</span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon20">
-                    <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                  </svg>
-                </div>
-                <div data-type="accordion-content" className="question-content">
-                  <span className="home-text51">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </span>
-                </div>
-              </div>
-              <div data-role="Accordion" className="question">
-                <div data-type="accordion-header" className="home-trigger2">
-                  <span className="home-text52">
-                    Is Kulli available in my area?
-                  </span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon22">
-                    <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                  </svg>
-                </div>
-                <div data-type="accordion-content" className="question-content">
-                  <span className="home-text53">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </span>
-                </div>
-              </div>
-              <div data-role="Accordion" className="question">
-                <div data-type="accordion-header" className="home-trigger3">
-                  <span className="home-text54">
-                    Can I track my shipment in real time?
-                  </span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon24">
-                    <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                  </svg>
-                </div>
-                <div data-type="accordion-content" className="question-content">
-                  <span className="home-text55">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </span>
-                </div>
-              </div>
-              <div data-role="Accordion" className="question">
-                <div data-type="accordion-header" className="home-trigger4">
-                  <span className="home-text56">
-                    Do you have an iOS or Android app?
-                  </span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon26">
-                    <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                  </svg>
-                </div>
-                <div data-type="accordion-content" className="question-content">
-                  <span className="home-text57">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </span>
-                </div>
-              </div>
-              <div data-role="Accordion" className="question">
-                <div data-type="accordion-header" className="home-trigger5">
-                  <span className="home-text58">
-                    How do I register as a truck owner?
-                  </span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon28">
-                    <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                  </svg>
-                </div>
-                <div data-type="accordion-content" className="question-content">
-                  <span className="home-text59">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <img
-              alt="image"
-              src="/New photos/major%20differences%20between%20local%20moving%20and%20long%20distance%20moving%20_%20zip%20moving%20%26%20storage-1200w.jpg"
-              className="home-image6"
-            />
-            <div className="home-container7"></div>
-          </div>
-        </div>
+        <FAQ />
         <div className="home-max-width7 max-width">
           <div className="home-container8"></div>
           <div className="home-max-width8 max-width">
