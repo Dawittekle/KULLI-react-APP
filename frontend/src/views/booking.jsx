@@ -9,7 +9,7 @@ const Booking = (props) => {
     <div className="booking-container">
       <Helmet>
         <title>Booking - Kulli App</title>
-        <meta property="og:title" content="Booking - Up Start Finance" />
+        <meta property="og:title" content="Booking - Kulli App" />
       </Helmet>
     </div>
   )

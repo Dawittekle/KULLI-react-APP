@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import Card from '../components/card'
 import Card1 from '../components/card1'
-import Footer3 from '../components/main-components/footer'
+import Footer from '../components/main-components/footer'
 import Header from '../components/main-components/header'
 import './home.css'
 
@@ -13,7 +13,7 @@ const Home = (props) => {
     <div className="home-container1">
       <Helmet>
         <title>Kulli App</title>
-        <meta property="og:title" content="Up Start Finance" />
+        <meta property="og:title" content="Kulli App" />
       </Helmet>
       <Header />
       <div className="hero-container section-container">
@@ -146,9 +146,11 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <button className="home-button9 button button-transparent">
+            <a href="/about">
+              <button className="home-button9 button button-transparent">
               Learn more
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -316,8 +318,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <Footer3 />
       </div>
+      <Footer />
     </div>
   )
 }
