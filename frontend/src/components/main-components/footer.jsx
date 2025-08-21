@@ -22,15 +22,14 @@ const Footer3 = () => {
           
           <div className="footer3-links">
             <a
-              href="https://example.com"
-              target="_blank"
+              href="/"
               rel="noreferrer noopener"
               className="thq-body-small"
             >
               <span className="footer3-text15">Book</span>
             </a>
             <a
-              href="https://example.com"
+              href="/"
               target="_blank"
               rel="noreferrer noopener"
               className="thq-body-small"
@@ -38,28 +37,26 @@ const Footer3 = () => {
               <span className="footer3-text14">Drivers</span>
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
+              href="/about"
               rel="noreferrer noopener"
               className="thq-body-small"
             >
-              <span className="footer3-text23">Link 3</span>
+              <span className="footer3-text23">About</span>
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
+              href="/"
               rel="noreferrer noopener"
               className="thq-body-small"
             >
-              <span className="footer3-text17">Link 4</span>
+              <span className="footer3-text17">FAQ</span>
             </a>
             <a
-              href="https://example.com"
+              href="/"
               target="_blank"
               rel="noreferrer noopener"
               className="thq-body-small"
             >
-              <span className="footer3-text18">Link 5</span>
+              <span className="footer3-text18">Download App</span>
             </a>
           </div>
           
@@ -86,11 +83,12 @@ const Footer3 = () => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer3-row">
             <div className="footer3-footer-links">
-              <span className="thq-body-small">
+              <a href="/"><span className="thq-body-small">
                 <span>© 2025 </span>
                 <span className="footer3-text12">K</span>
                 <span>ulli</span>
-              </span>
+              </span></a>
+              
               <span className="thq-body-small">
                 <span className="footer3-text24">Privacy Policy</span>
               </span>

@@ -7,6 +7,7 @@ import Feature2 from '../components/feature2'
 import Card1 from '../components/card1'
 import Footer from '../components/main-components/footer'
 import Header from '../components/main-components/header'
+import FAQ from '../components/main-components/faq'
 import './about-customer.css'
 
 const AboutCustomer = (props) => {
@@ -33,6 +34,7 @@ const AboutCustomer = (props) => {
       </h2>
       <Feature1 />
       <Feature2 />
+      <FAQ />
       <div className="about-customer-max-width2 max-width">
         <h1 className="about-customer-text44">It’s easier in the apps</h1>
         <div className="about-customer-cards-container">

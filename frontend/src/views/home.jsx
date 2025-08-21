@@ -6,7 +6,6 @@ import Card from '../components/card'
 import Card1 from '../components/card1'
 import Footer from '../components/main-components/footer'
 import Header from '../components/main-components/header'
-import FAQ from '../components/main-components/faq'
 import './home.css'
 
 const Home = (props) => {
@@ -175,7 +174,6 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-section4 section-container">
-        <FAQ />
         <div className="home-max-width7 max-width">
           <div className="home-container8"></div>
           <div className="home-max-width8 max-width">
