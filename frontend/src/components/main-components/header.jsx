@@ -6,7 +6,7 @@ const HomeNavbar = () => {
     <div className="home-navbar navbar-container">
       <div className="max-width">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <div className="home-logo1">
+          <a href="/">  <div className="home-logo1">
             <img
               alt="image"
               src="/New photos/7952195_delivery_truck_shipping_courier_cargo_icon.svg"
@@ -17,12 +17,13 @@ const HomeNavbar = () => {
               <span className="home-text11">K</span>
               <span>ulli</span>
             </span>
-          </div>
+          </div></a>
+        
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <div className="home-links1">
-              <span className="home-text13 navbarLink">Book</span>
-              <span className="home-text14 navbarLink">Drivers</span>
-              <span className="home-text15 navbarLink">About</span>
+              <a href="#"><span className="home-text13 navbarLink">Book</span></a>
+              <a href="#"><span className="home-text14 navbarLink">Drivers</span></a>
+              <a href="/about"><span className="home-text15 navbarLink">About</span></a>
               <button className="button-secondary button">Log in</button>
               <button className="button button-primary">Sign up</button>
             </div>
@@ -36,14 +37,15 @@ const HomeNavbar = () => {
             <div className="home-nav">
               <div className="home-top">
                 <div className="home-logo2">
-                  <img
-                    alt="image"
-                    src="/group%202.svg"
-                    className="home-image2"
-                  />
+                   <img
+              alt="image"
+              src="/New photos/7952195_delivery_truck_shipping_courier_cargo_icon.svg"
+              loading="lazy"
+              className="home-image1"
+            />
                   <span className="brandName">
-                    <span className="home-text17">UP -</span>
-                    <span> START</span>
+                    <span className="home-text11">K</span>
+                    <span>ulli</span>
                   </span>
                 </div>
                 <div data-thq="thq-close-menu" className="home-close-menu">

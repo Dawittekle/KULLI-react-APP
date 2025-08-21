@@ -8,23 +8,23 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import AboutCustomer from './views/about-customer'
-import Booking from './views/booking'
-import Home from './views/home'
-import NotFound from './views/not-found'
+import About from "./views/about";
+import Booking from "./views/booking";
+import Home from "./views/home";
+import NotFound from "./views/not-found";
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={AboutCustomer} exact path="/about-customer" />
+        <Route component={About} exact path="/about" />
         <Route component={Booking} exact path="/booking" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
     </Router>
-  )
-}
+  );
+};
 
 ReactDOM.render(<App />, document.getElementById('app'))
