@@ -10,10 +10,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=uber_dev
-      - REDIS_HOST=redis
     depends_on:
       - postgres
-      - redis
 
   frontend:
     build: ./frontend
@@ -40,15 +38,5 @@ services:
       timeout: 5s
       retries: 5
 
-  redis:
-    image: redis:7-alpine
-    container_name: kulli_redis
-    ports:
-      - "6379:6379"
-    command: ["redis-server", "--appendonly", "yes"]
-    volumes:
-      - redisdata:/data
-
 volumes:
   pgdata:
-  redisdata:
